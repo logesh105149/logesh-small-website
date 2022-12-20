@@ -1,0 +1,89 @@
+/*
+Author: Logeshwaran Velmurugan
+date: 12/2/2022
+File name: styles.css
+*/
+body,header,nav,main,footer,h1,div,img, ul {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+body{ /* Add the body selector */
+      background-color:#ae00ff; /* Set the background colour */
+}/* Closing brace for the body selector */
+img {
+	max-width: 100%;
+	display: block
+}
+
+header{ /* add the header selector */
+      width: 25%; /* Set the width of the element */
+      float:left; /* Add a declaration that sets a left float */    
+} /* Closing brace for the header seector */
+
+nav{  
+      width: 70%;
+      float: right;
+      margin:5em 3em 0 0;/* Set the margin on all sides of the element:
+top, right, bottom, left */
+}
+
+footer p {
+        font-size: 0.75em;
+        text-align: center;
+        color:#fff;
+        padding:0 lem;
+}
+
+footer p a {
+       color:#fff; /* Sets the link colour */
+       text-decoration: none;
+}
+
+nav ul{/* add the ul selector nested within a nav element */
+      list-style: none ; /* Remove the bullet marker */
+      margin: 0;/* Remove the margin*/
+      text-align: right;/* Allign the unordered list to the right */
+}
+
+nav li {  /* add the li selector nested within a nav element */
+      display: inline-block;
+      font-size: 1.5em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+}
+
+nav li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-right: 1em;
+      padding-left: 1em;
+      text-decoration: none; 
+}
+
+main{
+      clear:left; 
+      background-color: #fff;
+      padding: 2%;
+      font-size: 1.25em;
+}
+
+.action{
+      font-size: 1.353m ;
+      color: #666600;
+      font-weight: bold;
+}
+
+
+
+#contact {
+       display: block;
+       color: rgb(9, 25, 54);
+        text-align: center;
+        padding: 0.5em 1em;
+        text-decoration: none;
+}
